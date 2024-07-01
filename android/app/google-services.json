@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "412368266806",
+    "project_id": "zbmtech-4b2c7",
+    "storage_bucket": "zbmtech-4b2c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412368266806:android:208a000223497dc2735a97",
+        "android_client_info": {
+          "package_name": "com.example.ZBMTECH"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYQOVxZiDq7lnBbGcAc3by36aB28Gnr2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412368266806:android:8461937958ef0652735a97",
+        "android_client_info": {
+          "package_name": "com.example.task01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYQOVxZiDq7lnBbGcAc3by36aB28Gnr2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
