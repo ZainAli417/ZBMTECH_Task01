@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen>
     super.initState();
 
     _controller = AnimationController(
-      duration: const Duration(seconds: 2),
+      duration: const Duration(seconds: 4),
       vsync: this,
     )..forward();
 
@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen>
   }
 
   Future<void> _checkAuthStatus() async {
-    await Future.delayed(const Duration(seconds: 2)); // Simulate network delay
+    await Future.delayed(const Duration(seconds: 6)); // Simulate network delay
 
     _user = _auth.currentUser;
     if (_user == null) {
