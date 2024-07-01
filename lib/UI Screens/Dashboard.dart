@@ -23,7 +23,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Future<void> _loadDataWithDelay() async {
     final dataProvider = Provider.of<DataProvider>(context, listen: false);
     // Simulate a delay
-    await Future.delayed(const Duration(seconds: 7));
+    await Future.delayed(const Duration(seconds: 3));
     dataProvider.fetchItems();
   }
 
@@ -33,7 +33,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Dashboard'),
-
+          automaticallyImplyLeading: false, // Disables the default back button
           actions: [
             TextButton.icon(
               icon: const Icon(Icons.logout, color: Colors.white),
