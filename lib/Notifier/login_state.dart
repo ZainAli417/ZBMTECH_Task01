@@ -19,7 +19,7 @@ class LoginState extends ChangeNotifier {
 
   void setPassword(String password) {
     _password = password;
-    notifyListeners();
+    notifyListeners()
   }
 
   Future<void> loginUser(BuildContext context) async {
