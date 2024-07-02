@@ -48,25 +48,11 @@ class RegisterState extends ChangeNotifier {
     notifyListeners();
   }
 
-  void setCnic(String value) {
-    _cnic = value;
-    notifyListeners();
-  }
-
   void setContact(String value) {
     _contact = value;
     notifyListeners();
   }
 
-  void setAddress(String value) {
-    _address = value;
-    notifyListeners();
-  }
-
-  void setDob(String value) {
-    _dob = DateTime.parse(value);
-    notifyListeners();
-  }
 
   Future<void> registerUser(BuildContext context) async {
     if (!_validateInputFields(context)) {
