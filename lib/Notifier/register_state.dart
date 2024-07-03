@@ -12,20 +12,14 @@ class RegisterState extends ChangeNotifier {
   String? _email;
   String? _password;
   String? _confirmPassword;
-  String? _cnic;
   String? _contact;
-  String? _address;
-  DateTime? _dob;
 
   // Getters for form values
   String? get name => _name;
   String? get email => _email;
   String? get password => _password;
   String? get confirmPassword => _confirmPassword;
-  String? get cnic => _cnic;
   String? get contact => _contact;
-  String? get address => _address;
-  DateTime? get dob => _dob;
 
   // Setters for form values
   void setName(String value) {
